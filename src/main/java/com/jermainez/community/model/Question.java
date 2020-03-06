@@ -1,5 +1,7 @@
 package com.jermainez.community.model;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 public class Question implements Serializable {

@@ -1,12 +1,16 @@
 package com.jermainez.community.dto;
 
+import lombok.Data;
+
 import java.io.Serializable;
+
 
 public class GithubUser implements Serializable {
 
     private String name;
     private Long id;
     private String bio;
+    private String avatarUrl;
 
     public String getName() {
         return name;
@@ -30,6 +34,14 @@ public class GithubUser implements Serializable {
 
     public void setBio(String bio) {
         this.bio = bio;
+    }
+
+    public String getAvatarUrl() {
+        return avatarUrl;
+    }
+
+    public void setAvatarUrl(String avatarUrl) {
+        this.avatarUrl = avatarUrl;
     }
 
     @Override

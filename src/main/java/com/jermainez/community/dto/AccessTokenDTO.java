@@ -1,5 +1,7 @@
 package com.jermainez.community.dto;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 public class AccessTokenDTO implements Serializable {
